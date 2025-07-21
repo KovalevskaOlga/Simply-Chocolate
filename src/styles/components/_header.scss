@@ -1,0 +1,33 @@
+@use "../base/variables" as variables;
+
+.header {
+  padding-top: 20px;
+
+  &__nav {
+    display: flex;
+  }
+
+  &__list {
+    margin-left: 188px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+
+  &__list-contacts {
+    display: flex;
+    gap: 18px;
+    margin-left: 129px;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    fill: variables.$color-black;
+    transition: fill 0.3s ease;
+
+    &:hover {
+      fill: variables.$color-accent;
+    }
+  }
+}

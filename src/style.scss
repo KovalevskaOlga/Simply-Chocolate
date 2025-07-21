@@ -1,4 +1,22 @@
-$color-black: #111;   
-$color-dark: #1E1823;   
-$color-accent: #FD9222;    
-$color-light:  #FAFAFA; 
+@use './styles/base/reset';
+@use './styles/base/variables';
+@use './styles/base/base';
+
+@use './styles/components/header';
+@use './styles/components/hero';
+@use './styles/components/advantages';
+@use './styles/components/adds';
+@use './styles/components/made';
+@use './styles/components/poducts';
+@use './styles/components/top';
+@use './styles/components/review';
+@use './styles/components/subscribe';
+@use './styles/components/footer';
+
+@use './styles/modals/buy-modal';
+@use './styles/modals/review-modal';
+@use './styles/modals/subscribe-modal';
+
+
+
+
