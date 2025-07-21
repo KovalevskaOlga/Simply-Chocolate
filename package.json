@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/KovalevskaOlga/Simply-Chocolate/issues"
   },
-  "homepage": "https://github.com/KovalevskaOlga/Simply-Chocolate#readme",
+  "homepage": "https://kovalevskaolga.github.io/Simply-Chocolate/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.15.4",
     "parcel": "^2.15.4"
